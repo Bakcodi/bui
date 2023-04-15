@@ -222,8 +222,10 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
                   } d-inline-block float-right text-muted font-weight-bold`}
                   data-tippy-content={i18n.t("upload_image")}
                 >
+                  <span>Upload Image instead -&nbsp;</span>
                   <Icon icon="image" classes="icon-inline" />
                 </label>
+                
                 <input
                   id="file-upload"
                   type="file"
@@ -383,13 +385,7 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
               </div>
             </div>
           )}
-          <LanguageSelect
-            allLanguages={this.props.allLanguages}
-            siteLanguages={this.props.siteLanguages}
-            selectedLanguageIds={selectedLangs}
-            multiple={false}
-            onChange={this.handleLanguageChange}
-          />
+       
           <input
             tabIndex={-1}
             autoComplete="false"

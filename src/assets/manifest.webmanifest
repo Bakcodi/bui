@@ -1,9 +1,9 @@
 {
-  "name": "Lemmy",
-  "description": "A link aggregator for the fediverse",
+  "name": "Bak",
+  "description": "An Indian troll platform",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#222222",
+  "background_color": "#FF7722",
   "icons": [
     {
       "src": "/static/assets/icons/icon-72x72.png",

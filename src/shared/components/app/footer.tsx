@@ -46,21 +46,7 @@ export class Footer extends Component<FooterProps, any> {
                 </NavLink>
               </li>
             )}
-            <li className="nav-item">
-              <a className="nav-link" href={docsUrl}>
-                {i18n.t("docs")}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href={repoUrl}>
-                {i18n.t("code")}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href={joinLemmyUrl}>
-                {i18n.t("join_lemmy")}
-              </a>
-            </li>
+
           </ul>
         </div>
       </nav>
